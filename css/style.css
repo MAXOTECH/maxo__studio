@@ -494,7 +494,7 @@ ol {
 	text-transform: uppercase;
 	margin-bottom: 45px;
 	position: relative;
-	right: 100px;
+	right: 50px;
 	opacity: 0;
 	-webkit-transition: all, 0.3s;
 	-o-transition: all, 0.3s;
