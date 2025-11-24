@@ -66,7 +66,7 @@ body {
 
 .fade-in {
   animation: fadeIn ease 100s;
-  -webkit-animation: fadeIn ease 50s;
+  -webkit-animation: fadeIn ease 100s;
   -moz-animation: fadeIn ease 80s;
   -o-animation: fadeIn ease 80s;
   -ms-animation: fadeIn ease 80s;
