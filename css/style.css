@@ -65,11 +65,11 @@ body {
 }
 
 .fade-in {
-  animation: fadeIn ease 30s;
-  -webkit-animation: fadeIn ease 30s;
-  -moz-animation: fadeIn ease 30s;
-  -o-animation: fadeIn ease 30s;
-  -ms-animation: fadeIn ease 30s;
+  animation: fadeIn ease 20s;
+  -webkit-animation: fadeIn ease 20s;
+  -moz-animation: fadeIn ease 20s;
+  -o-animation: fadeIn ease 32s;
+  -ms-animation: fadeIn ease 20s;
 }
 @keyframes fadeIn {
   0% {opacity:0;}
