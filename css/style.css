@@ -30,6 +30,43 @@
 
 /* Template default CSS
 /*----------------------------------------*/
+#breathing-button {
+    width: 270px;
+    padding: 20px;
+    margin: 50px auto;
+
+    -webkit-animation: breathing 7s ease-out infinite normal;
+    animation: breathing 7s ease-out infinite normal;
+    font-size: 24px;
+ 
+    
+    -webkit-font-smoothing: antialiased;
+    border-radius: 3px;
+    text-align: center;    
+    }
+
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
 
 .swiper {
     width: 80%;
@@ -64,37 +101,40 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-.fade-in {
-  animation: fadeIn ease 10s;
-  -webkit-animation: fadeIn ease 10s;
-  -moz-animation: fadeIn ease 10s;
-  -o-animation: fadeIn ease 10s;
-  -ms-animation: fadeIn ease 10s;
-}
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+.breathing-button {
+    -webkit-animation: breathing 10s ease-out infinite normal;
+    animation: breathing 10s ease-out infinite normal;
+
+    -webkit-font-smoothing: antialiased;
+    border-radius: 9px;
+    text-align: center;    
+    }
+
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
 }
 
-@-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
 
-@-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
 
-@-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
 h1,
 h2,
 h3,
@@ -511,6 +551,7 @@ ol {
 	-ms-flex-pack: center;
 	justify-content: center;
 }
+
 
 .hero__text {
 	max-width: 820px;
