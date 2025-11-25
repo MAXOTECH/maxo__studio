@@ -102,8 +102,8 @@ body {
 }
 
 .breathing-button {
-    -webkit-animation: breathing 15s ease-out infinite normal;
-    animation: breathing 15s ease-out infinite normal;
+    -webkit-animation: breathing 6s ease-out infinite normal;
+    animation: breathing 6s ease-out infinite normal;
 
     -webkit-font-smoothing: antialiased;
     border-radius: 9px;
